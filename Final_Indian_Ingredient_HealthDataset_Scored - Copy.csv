@@ -1,0 +1,237 @@
+ingredient,health_score,category,aliases,Tags/Flags,Risk Group Flags,Notes
+Acacia Gum,-0.1,Stabilizer,-,Natural Fiber,-,Used as thickener and fiber source
+Acesulfame Potassium,-0.8,Artificial Sweetener,E950,Synthetic|Zero Calorie,Diabetic|Kidney Risk,Linked to possible metabolic disruption
+Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Acid Explanation,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Acid Insoluble,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Acid Value,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Acid Whey,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Acid Whey Powder,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Additive,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Additive Name,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Alginic Acid,-0.2,Thickener,-,Seaweed Derived,-,Used for texture
+Allspice Powder,0.6,Spice,Pimenta,Antioxidant|Natural,-,Natural spice with health benefits
+Anhydrous Butter Oil,-0.5,Fat/Oil,-,High Saturated Fat,Heart Risk,Concentrated dairy fat
+Anhydrous Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Arachidonic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Ascorbic Acid,0.6,Additive,Vitamin C|E300,Antioxidant,-,Safe preservative
+Avocado Oil,0.7,Fat/Oil,-,Healthy Fat,-,Heart-friendly fat
+Black Salt,-0.3,Additive,Kala Namak,Sulfur Rich,Hypertension,Flavor enhancer with minerals
+Black Salt Herbs,-0.1,Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Bran Oil,0.5,Fat/Oil,Rice Bran Oil,PUFA|Heart Friendly,-,Popular Indian cooking oil
+Buffalo Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Butter,-0.4,Fat/Oil,-,High Saturated Fat|Natural,Heart Risk,Moderation recommended
+Butter Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Butter Oil,-0.4,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Calcium,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Calcium Alginate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Calcium Oxide,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Calcium Propionate,-0.7,Preservative,E282,Mold Inhibitor|Synthetic,Gut Irritant,Linked to hyperactivity
+Calcium Saccharin,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Calcium Sulphate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Camel Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Casein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Castor Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Chia Oil,0.6,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Chocolate Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Citric Acid,-0.1,Acidity Regulator,E330,Preservative|Safe Dose,-,Common acidity controller
+Citric Acid Max,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Cocoa Butter,0.2,Fat/Oil,-,Natural|Saturated Fat,-,Used in chocolates
+Cocoa Butter Content,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Cocoa Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Coconut Oil,0.1,Fat/Oil,-,MCT Rich|Saturated Fat,Heart Risk (if excess),Mixed evidence on health effects
+Coffee Powder,0.3,Beverage Base,-,Caffeine Source|Stimulant,BP Risk (High Dose),Moderate use safe
+Color,-0.9,Color Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Color Units,-0.9,Color Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Common Salt,-0.5,Additive,"Sodium Chloride,  Iodised salt",Hypertension Risk,High BP,Limit intake
+Concentrated Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Condensed Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Cottonseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Cow Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Cream Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Cream Powder,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Crude Protein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Disodium Salt,-0.1,Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Docosahexaenoic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+E132,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Edible Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Edible Acid Casein,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Edible Casein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Edible Casein Products,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Emulsifier,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Enzyme,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Evaporated Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Extract,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Fatty Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Fermented Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Fermented Milk Part,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Fermented Milk Products,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Fish Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Flavored Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Flavour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Flavoured Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Flavouring,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Flour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Folic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Food Additive,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Food Additive Name,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Fructose,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Fruit Syrup,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Fungi Extract,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Fungi Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Gellan Gum,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Glucose,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Gram Flour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Groundnut Flour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Groundnut Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Guar Gum,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Gum,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Gum Arabic,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Gum Ghatti,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Gum Karaya,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Heavy Syrup,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Hydrocyanic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Infant Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Infant Milk Food,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Infant Milk Substitutes,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+International Sucrose Scale,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Iodized Salt,-0.1,Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Karaya Gum,-0.2,Stabilizer,-,Unclassified,-,Auto-assigned data. Needs review.
+Kernel Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Khandsari Sugar,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Khandsari Sugar Desi,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Lactic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Lauric Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Leaf Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Lecithin,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Light Syrup,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Linolenic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Linseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Mahua Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Malic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Maltodextrin,-0.4,Food additive,Modified Starch,Consume in low amt,Diabetic|Kidney Risk,Auto-assigned data. Needs review.
+Mango Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Dairy,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Fat,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Ice,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Lolly,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Powder,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Powders,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Product,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Products,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Protein,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Protein Concentrate,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Protein Concentrates,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Solids,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Milk Substitute,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Mineral Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Mix Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Mixed Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Natural Flavouring Substances,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Nigerseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Oil Content,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Oleic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Oleic Acid Sunflower,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Olive Oil,0.6,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Oregano Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Oxalic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Palm Oil,-0.4,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Palmitic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Pantothenic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Peanut Butter,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Phosphoric Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Poppyseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium Bichromate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium Inosate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium Iodate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium Metabisulphite,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium Phosphates,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Potassium Polyphosphate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Preservative,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Protein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Protein Content,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Protein Efficiency,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Ragi Flour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Rapeseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Refined Sugar,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Rennet Casein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Rice Syrup,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Ricinoleic Acid,-0.1,Acidity Regulator,-,Unclassified,-,Auto-assigned data. Needs review.
+Saccharin Sodium,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Safflower Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Safflowerseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Salt,-0.1,Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Salt Substitutes,-0.1,Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Sardine Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Sesame Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Skimmed Milk,0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Skimmed Milk Dairy,0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Alginate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Ascorbate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Carboxymethyl,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Chloride,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Feredetate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Formate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Hydroxide,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Iron,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Metabisulphite,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Propionate,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Saccharin,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sodium Saccharinis,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sorghum Flour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Soy Protein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Soy Protein Concentrate,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Soy Protein Flour,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Soy Protein Isolate,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Soy Protein Products,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Soyabean Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Spice,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Spice Content,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Spice Oleoresin,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Spice Oleoresins,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Stabilizer,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Standardised Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Standardized Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Starch,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sucrose,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sugar,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sugar Cane,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sulphur Sugar,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Sunflower Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Sweetener,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Synthetic Syrup,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Syrup,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Tapioca Flour,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Taramira Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+The Calcium,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+The Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+The Protein Efficiency,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+The Sodium,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Thickener,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Toned Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+Total Protein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Total Starch,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Total Sugar,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Vanilla Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Vegetable Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Vegetable Protein,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Vegetable Protein Product,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Vegetable Protein Products,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Volatile Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Watermelonseed Oil,-0.2,Fat/Oil,-,Unclassified,-,Auto-assigned data. Needs review.
+Wheat Protein Products,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Whey,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Whey Cheese,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Whey Cheeses,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Whey Powder,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Whey Powders,0.1,Dry Ingredient,-,Unclassified,-,Auto-assigned data. Needs review.
+Whey Protein Concentrate,-0.1,Protein Additive,-,Unclassified,-,Auto-assigned data. Needs review.
+Whole Milk,-0.3,Dairy Product,-,Unclassified,-,Auto-assigned data. Needs review.
+With Sugar,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Yeast,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.
+Yeast Dried,0.1,Miscellaneous,-,Unclassified,-,Auto-assigned data. Needs review.

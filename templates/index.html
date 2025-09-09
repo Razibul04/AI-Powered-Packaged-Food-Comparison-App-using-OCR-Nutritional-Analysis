@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Food Comparator | Smart Nutrition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif']
+          },
+          colors: {
+            lightpink: '#fff1f5',
+            softblue: '#e0f2fe',
+            deepblue: '#1e3a8a',
+            blush: '#f9e2eb'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0f2fe, #bfdbfe);
+    }
+    .main-card {
+      background: #fff1f5;
+      border: 2px solid #f9e2eb;
+      border-radius: 1.5rem;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    }
+    .preview-image {
+      max-height: 200px;
+      object-fit: contain;
+      border-radius: 1rem;
+      margin: 0 auto;
+    }
+    .fade-in {
+      animation: fade 0.5s ease-in-out;
+    }
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-800">
+
+  <div class="min-h-screen flex flex-col items-center justify-center px-4 py-10 bg-softblue">
+    <div class="text-center mb-10">
+      <h1 class="text-4xl font-bold text-deepblue mb-2">🥗 Food Ingredient Comparator</h1>
+      <p class="text-gray-700 text-lg">Instantly find out which food is better for your health.</p>
+    </div>
+
+    <div class="w-full max-w-4xl p-8 main-card fade-in">
+      <form id="compareForm" enctype="multipart/form-data" class="space-y-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-gray-800 font-semibold mb-2">Upload Food Image 1</label>
+            <input type="file" name="image1" id="image1" required accept="image/*"
+              class="w-full text-sm p-2 rounded-xl bg-white shadow-inner focus:outline-none">
+            <img id="preview1" class="mt-4 preview-image hidden shadow-lg" />
+          </div>
+
+          <div>
+            <label class="block text-gray-800 font-semibold mb-2">Upload Food Image 2</label>
+            <input type="file" name="image2" id="image2" required accept="image/*"
+              class="w-full text-sm p-2 rounded-xl bg-white shadow-inner focus:outline-none">
+            <img id="preview2" class="mt-4 preview-image hidden shadow-lg" />
+          </div>
+        </div>
+
+        <!-- Health Condition Button -->
+        <div class="text-center">
+          <button type="button" onclick="toggleConditions()"
+            class="text-deepblue font-medium underline hover:text-blue-900">
+            Specify Health Conditions
+          </button>
+        </div>
+
+        <!-- Radio Buttons (Hidden by Default) -->
+        <div id="conditionOptions" class="hidden grid grid-cols-2 md:grid-cols-3 gap-3 mt-4 px-2">
+          <label><input type="radio" name="condition" value="none" class="mr-2" />None</label>
+          <label><input type="radio" name="condition" value="diabetes" class="mr-2" />Diabetes</label>
+          <label><input type="radio" name="condition" value="gluten_free" class="mr-2" />Gluten-Free</label>
+          <label><input type="radio" name="condition" value="lactose_intolerant" class="mr-2" />Lactose Intolerant</label>
+          <label><input type="radio" name="condition" value="nut_allergy" class="mr-2" />Nut Allergy</label>
+          <label><input type="radio" name="condition" value="low_sodium" class="mr-2" />Low Sodium</label>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button type="submit"
+            class="bg-deepblue text-white text-lg px-8 py-3 rounded-xl hover:bg-blue-900 transition-all duration-200 shadow-lg">
+            Compare Foods
+          </button>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div class="text-center mt-4 hidden" id="loadingSpinner">
+          <div class="inline-block w-6 h-6 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          <p class="text-sm text-gray-600 mt-2">Processing...</p>
+        </div>
+
+        <!-- Basic Recommendation -->
+        <div id="resultCard" class="hidden mt-8 text-center">
+          <div class="text-2xl font-semibold text-green-700" id="recommendationText"></div>
+
+          <!-- Know More Link -->
+          <button type="button" onclick="toggleDetails()"
+            class="mt-4 text-sm text-blue-700 underline hover:text-blue-900">Know more</button>
+
+          <!-- Hidden Details -->
+          <div id="detailSection" class="mt-4 hidden text-left bg-white p-4 rounded-lg shadow-inner">
+            <p><strong>Food 1 Score:</strong> <span id="score1Text"></span></p>
+            <p><strong>Food 2 Score:</strong> <span id="score2Text"></span></p>
+            <p><strong>Similarity:</strong> <span id="similarityText"></span></p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script>
+    // Preview Image Handler
+    const previewImage = (input, preview) => {
+      if (input.files && input.files[0]) {
+        const reader = new FileReader();
+        reader.onload = e => {
+          preview.src = e.target.result;
+          preview.classList.remove('hidden');
+        };
+        reader.readAsDataURL(input.files[0]);
+      }
+    };
+
+    document.getElementById("image1").addEventListener("change", function () {
+      previewImage(this, document.getElementById("preview1"));
+    });
+    document.getElementById("image2").addEventListener("change", function () {
+      previewImage(this, document.getElementById("preview2"));
+    });
+
+    // Toggle health conditions
+    function toggleConditions() {
+      const section = document.getElementById("conditionOptions");
+      section.classList.toggle("hidden");
+    }
+
+    // Toggle details section
+    function toggleDetails() {
+      const detail = document.getElementById("detailSection");
+      detail.classList.toggle("hidden");
+    }
+
+    // Handle form submission
+    const form = document.getElementById("compareForm");
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      document.getElementById("resultCard").classList.add("hidden");
+      document.getElementById("loadingSpinner").classList.remove("hidden");
+
+      const formData = new FormData(form);
+      const condition = document.querySelector('input[name="condition"]:checked');
+      if (condition) {
+        formData.append("condition", condition.value);
+      }
+
+      try {
+        const response = await fetch("/compare", {
+          method: "POST",
+          body: formData
+        });
+        const data = await response.json();
+
+        document.getElementById("loadingSpinner").classList.add("hidden");
+        document.getElementById("resultCard").classList.remove("hidden");
+
+        document.getElementById("recommendationText").innerText =
+          `✅ Healthier Option: ${data.recommendation}`;
+
+        document.getElementById("score1Text").innerText = `${data.score1}`;
+        document.getElementById("score2Text").innerText = `${data.score2}`;
+        document.getElementById("similarityText").innerText = `${data.similarity} %`;
+
+      } catch (err) {
+        document.getElementById("loadingSpinner").classList.add("hidden");
+        document.getElementById("resultCard").classList.remove("hidden");
+        document.getElementById("recommendationText").innerText = "❌ Error comparing food items.";
+      }
+    });
+  </script>
+</body>
+</html>
